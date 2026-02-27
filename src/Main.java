@@ -92,7 +92,7 @@ public class Main {
                 case 8:
                     System.out.print("Güncellenecek Kitap ID: ");
                     int upId = scanner.nextInt();
-                    scanner.nextLine(); // Satır atlama düzeltmesi
+                    scanner.nextLine();
                     System.out.print("Yeni Kitap İsmi: ");
                     String newTitle = scanner.nextLine();
                     System.out.print("Yeni Fiyat: ");
