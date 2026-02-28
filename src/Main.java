@@ -15,10 +15,14 @@ public class Main {
         Book book1 = new StudyBook(1, "Kürk Mantolu Madonna", author1, 50.0);
         Book book2 = new StudyBook(2, "1984", author2, 75.0);
         Book book3 = new StudyBook(3, "Hayvan Çiftliği", author2, 60.0);
+        Book book4 = new Journals(4, "Science Journal", author1, 30.0, "Vol.12", "2024-01");
+        Book book5 = new Magazines(5, "National Geographic", author2, 25.0, "Bilim", "Ocak 2024");
 
         library.addBook(book1);
         library.addBook(book2);
         library.addBook(book3);
+        library.addBook(book4);
+        library.addBook(book5);
 
         Student student1 = new Student(101, "Ali Yılmaz");
         library.addMember(student1);
